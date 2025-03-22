@@ -1,0 +1,186 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3b9d67;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #3b9d67;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Project Background Section */
+.background {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.background h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.background .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.background .content .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.background .content .text {
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Work Section */
+.work {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.work h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.work-item {
+    margin: 20px 0;
+}
+
+/* Team Section */
+.team {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.team .team-member {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.team .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background-color: #3b9d67;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+footer {
+    padding: 20px;
+    background-color: #3b9d67;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
